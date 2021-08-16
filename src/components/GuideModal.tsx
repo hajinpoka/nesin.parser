@@ -41,12 +41,6 @@ const GuideModal: React.FC<GuideModalProps> = props => {
       </div>
       <div className="row">
         <b>3. 빨간색 영역만 캡쳐를 합니다. </b>
-        <br />
-        - 빼야할 과목이 있다면 캡처에서 제외해주세요. <br />
-        <div style={{ color: 'red' }}>
-          - 성취도가 나와있지 않다면 세 항목만 캡쳐해주세요! (단위수 |
-          원점수/과목평균(표준편차) | 석차등급(수강자수)
-        </div>
         <img
           className="sample-img"
           src="https://user-images.githubusercontent.com/23434757/127511366-88c3e786-1d9f-4b74-893b-458036961917.png"
@@ -58,9 +52,6 @@ const GuideModal: React.FC<GuideModalProps> = props => {
           4. 캡쳐한 이미지들을 각종 툴을 사용해서 세로로 붙인 후 저장합니다.
         </b>
         <br />
-        <div style={{ color: 'red' }}>
-          (화질 매우 중요합니다.. 화질이 낮으면 인식이 불가할 수 있습니다.)
-        </div>
         <div>
           <img
             style={{ width: '30%' }}
